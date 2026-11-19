@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Leonida Trophy Atlas — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div>
+    <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5 &middot; 55 trophies</p>
+    <h1>Leonida Trophy Atlas</h1>
+    <p class="sub">The complete guide and tracker for every GTA VI trophy — official names, descriptions and grades, a guide to each one with its sources, a roadmap to the platinum, and the one trophy you can miss.</p>
+  </div>
+  <div class="progress-box" id="progress-box">
+    <div class="big-number"><span id="earned-count">0</span><span class="of"> / 55</span></div>
+    <p id="progress-line">0 of 55 earned</p>
+    <div class="bar"><div class="bar-fill" id="bar-fill" style="width: 0%"></div></div>
+    <p class="grades-line" id="grades-line"></p>
+  </div>
+</header>
+
+<section class="roadmap" id="roadmap">
+  <h2>Roadmap to the platinum</h2>
+  <p class="section-note">Earn them in this order. Stage 1 is the story; stage 2 is the stuff to grab while you play; stages 3 and 4 are the grind; stage 5 is the robberies, then 100%, then the platinum.</p>
+  <ol class="stages" id="stages"></ol>
+</section>
+
+<section class="missable-callout" id="missable-callout">
+  <h2>⚠ The one trophy you can miss</h2>
+  <p><strong>Positive Mental Attitude</strong> — meditate at every one of the 18 spots across Leonida. Lucia&rsquo;s balcony meditation in Chapter 1 counts toward it and disappears after that chapter, and there is no mission replay. Meditate at the balcony in Chapter 1, then at every other spot as you find them. Keep a manual save at the start of every chapter, and one more before the final mission. Source: <a href="https://outputlag.com/guides/gta-6-trophy-list/" target="_blank" rel="noopener">Output Lag — trophy list</a>; also flagged by <a href="https://egamers.io/gta-6-trophy-list-all-55-trophies-and-achievements-plus-the-hardest-ones/" target="_blank" rel="noopener">EGamers (GTABase / PowerPyx)</a>.</p>
+</section>
+
+<div class="controls">
+  <label class="search">Search <input id="search" type="search" placeholder="Trophy name or guide word…"></label>
+  <label>Grade <select id="grade"><option value="all">All grades</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
+  <label>Kind <select id="kind"><option value="all">All kinds</option><option value="story">Story</option><option value="missable">Missable</option><option value="collectibles">Collectibles</option><option value="activities">Activities</option><option value="meta">Meta (platinum / 100%)</option></select></label>
+  <label class="spoiler"><input id="spoiler" type="checkbox"> Hide spoilers (story trophies stay hidden until earned)</label>
+  <button id="export" type="button">Export progress</button>
+  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
+</div>
+<p class="filter-line" id="filter-line"></p>
+
+<main>
+  <div class="cards" id="cards"></div>
+  <p class="empty" id="empty" hidden>No trophies match these filters.</p>
+</main>
+
+<footer>
+  <h2>Sources</h2>
+  <p>Every guide names its source beside it. The trophy names, descriptions, grades and hidden flags come from the official list as Exophase and PSNProfiles published it, cross-checked on <a href="https://www.planetgta6.com/en/gta-6-trophies/" target="_blank" rel="noopener">Planet GTA 6</a>. The how-to details come from <a href="https://outputlag.com/guides/gta-6-trophy-list/" target="_blank" rel="noopener">Output Lag</a>, <a href="https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" target="_blank" rel="noopener">KeenGamer</a>, <a href="https://egamers.io/gta-6-trophy-list-all-55-trophies-and-achievements-plus-the-hardest-ones/" target="_blank" rel="noopener">EGamers</a>, <a href="https://www.gtavicecityhub.com/achievements" target="_blank" rel="noopener">GTA Vice City Hub</a>, <a href="https://www.u7buy.com/blog/gta-6-trophies/" target="_blank" rel="noopener">U7BUY</a>, <a href="https://www.ofzenandcomputing.com/gta-6-trophy-list-trophies-achievements/" target="_blank" rel="noopener">Of Zen and Computing</a> and <a href="https://www.gtavibes.com/guides/gta-6-trophy-list-achievements" target="_blank" rel="noopener">GTA Vibes</a>. All guides are written in our own words; the sources are cited, never copied.</p>
+  <p class="disclaimer">The game has only just launched, so a few hidden trophies have no confirmed unlock method yet — those guides say so plainly. No Rockstar logo or official artwork is used here; the look is our own. Progress is saved in your browser (localStorage) and never leaves your machine unless you export it.</p>
+</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
