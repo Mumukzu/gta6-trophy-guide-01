@@ -11,17 +11,17 @@ trophies of Grand Theft Auto VI: 1 platinum, 2 gold, 6 silver and 46 bronze,
 ## What it does
 
 - **Every trophy, with its official name, description and grade**, plus a guide
-  in our own words that cites its sources — what to do, where and how, and
-  when it can be missed. No guide text is copied from another site.
+  written in our own words that cites its source — what to do, where and how,
+  and when it can be missed. No guide text is copied from another site.
 - **A tracker**: tick a trophy off and it stays ticked (saved in the browser),
   export your progress to a file and import it back.
 - **Filters** by grade and by kind (story, missable, collectibles, activities,
   meta), plus search.
 - **A spoiler setting** that hides the names, descriptions and guides of the
   28 hidden trophies until you earn them.
-- **A roadmap to the platinum** in 5 stages, and a flag on the one trophy
-  that can be missed (Positive Mental Attitude — meditate at Lucia's balcony
-  in Chapter 1 before it disappears).
+- **A road to the platinum** in 5 stages, and a flag on the one trophy that
+  can be missed (Positive Mental Attitude — meditate at Lucia's balcony in
+  Chapter 1 before it disappears).
 
 ## Run it
 
@@ -49,3 +49,5 @@ list as Exophase and PSNProfiles published it. The how-to details come from
 Planet GTA 6, Output Lag, KeenGamer, EGamers, GTA Vice City Hub, U7BUY, Of Zen
 and Computing and GTA Vibes — each guide names its source beside it. All
 guides are written in our own words; the sources are cited, never copied.
+Five hidden trophies have no confirmed unlock method yet, and their guides say
+so plainly rather than inventing one.
